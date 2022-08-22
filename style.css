@@ -142,3 +142,9 @@ html {
   font-size: var(--FontSize-m);
   padding: 1rem 0 1rem 0;
 }
+
+@media (max-width: 393px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
